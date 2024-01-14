@@ -34,6 +34,9 @@ Follow this [guide](https://wiki.hyprland.org/Nvidia/) closely.
 ### Fixing flickering
 In the same guide as above, scroll down to see how to remove flickering in applications like spotify.
 
+## Pull this repository
+Run `git clone https://github.com/ChrisBrinchLarsen/HyprlandConfigs.git`
+
 ## Yay
 Type `git clone https://aur.archlinux.org/yay-bin.git`
 CD into the new folder.
