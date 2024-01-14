@@ -41,5 +41,6 @@ Run `makepkg -si`
 Now Yay install hyprland.
 
 ## Deploying Configs
-Make sure that all relevant config folders are in existance.
+Make sure that all relevant config folders are in existance, this can be done by running `cat inject.sh` and verifying that all the directories that are being pathed to in that script are avilable.
 
+Then run `bash inject.sh` to replace all the configs. You might have to do this both before and after launching Hyprland for the first time. Also keep in mind that hyprpaper.conf is currently pointed at some nonsense wallpaper that you likely don't have installed, just modify the path to whatever you wish your wallpaper to be.
