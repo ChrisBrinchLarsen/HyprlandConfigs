@@ -8,7 +8,7 @@
     "modules-left": ["hyprland/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
     "modules-center": ["hyprland/window"],
     //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
-    "modules-right": ["pulseaudio", "clock", "tray", "backlight"],
+    "modules-right": ["pulseaudio", "clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -33,8 +33,8 @@
 	"format": "{icon}",
 	"format-icons": {
 	    "1": "",
-	    "2": "",
-	    "3": "",
+	    "2": "",
+	    "3": "",
 	    "4": "",
 	    "urgent": "",
             "focused": "",

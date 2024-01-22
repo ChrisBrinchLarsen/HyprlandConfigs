@@ -1,0 +1,25 @@
+1. 
+Wallpapers can now be cleanly changed with no terminal hangup, instantly disowns
+and doesn't show any output. To change wallpaper, type `setwp <nameOfWallPaper>`
+As long as the wallpaper is contained in the ~/Wallpapers directory
+
+2.
+Path autocompletes case insensitively, meaning `cd wall` would autocomplete to
+`cd Wallpapers` when pressing TAB.
+
+3. 
+Instantly displays options when path ambiguity arises, pressing TAB while having
+typed in `cd .config/hypr/hy` would instantly become `cd .config/hypr/hypr` and
+immediately display the two options as `hyprpaper.conf` and `hyprland.conf`.
+
+4.
+Made a custom bash prompt completely from scratch, doesn't support showing current 
+working git repository but that shouldn't be too hard to add.
+
+5.
+More PoE improvements, found a new solid launch option that people are raving about.
+Ran a solo map with no issues at all, then ran a minotaur map with Vito on his new char,
+slight stutters on the first 2 packs as it downloaded his skill shaders, but no issues after that.
+People are saying that games usually run super smooth once all major shaders have been downloaded through a
+bit of play time. Read this post for good info:
+https://www.reddit.com/r/linux_gaming/comments/uz2vlh/how_is_everyone_so_tolerant_of_the_stuttering_on/
