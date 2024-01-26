@@ -1,0 +1,10 @@
+## Choose your weapon
+EDITOR=/usr/bin/neovim
+export EDITOR
+
+## The maximum number of lines in your history file
+export HISTFILESIZE=50
+
+# Terminal Settings
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
