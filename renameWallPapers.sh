@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory=~/Wallpapers
+directory=~/Pictures/Wallpapers
 counter=1
 
 for file in $directory/*;
@@ -22,4 +22,3 @@ do
 	new_name=${file::-3}
 	mv "$file" "$new_name"
 done
-
